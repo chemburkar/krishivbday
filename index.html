@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishiv's Movie Adventure</title>
+    <style>
+        body {
+            background-color: #4caf50; /* Green background for acceptance */
+            text-align: center;
+            font-family: 'Arial', sans-serif;
+        }
+        .ticket {
+            background-color: #fff;
+            border: 10px solid #000;
+            border-radius: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+            margin: 50px auto;
+            max-width: 400px;
+            position: relative;
+            padding: 20px;
+        }
+        .header {
+            font-size: 32px;
+            color: #ff9900;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .date {
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        .accepted-text {
+            font-size: 28px;
+            color: #4caf50;
+            margin-top: 30px;
+        }
+        .checkmark {
+            color: #4caf50;
+            font-size: 60px;
+        }
+        .cartoon {
+            max-width: 100%;
+            height: auto;
+            margin-top: 30px;
+        }
+        .movie-roll {
+            position: absolute;
+            top: -15px;
+            left: -15px;
+            width: 100px;
+            height: auto;
+        }
+        .qr-code {
+            position: absolute;
+            top: -15px;
+            right: -15px;
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="ticket">
+        <img src="image_url_for_movie_roll.png" alt="Movie Roll" class="movie-roll" width="100" height="auto">
+        <h1 class="header">Krishiv's Movie Adventure</h1>
+        <p class="date">Date: 6th October 2023</p>
+        <p class="accepted-text">Your Ticket Has Been Accepted</p>
+        <div class="checkmark">&#10004;</div>
+        <img src="image_url_for_cartoon.jpg" alt="Fun Cartoon" class="cartoon" width="200" height="auto">
+        <img src="image_url_for_qr_code.png" alt="QR Code" class="qr-code" width="150" height="auto">
+    </div>
+</body>
+</html>
